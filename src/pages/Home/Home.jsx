@@ -78,7 +78,7 @@ const Home = () => {
             ${Styles.me} w-[40%]  absolute hidden lg:bottom-10 ltr:right-32 rtl:left-32
             `}
         >
-          <img src={`/portfolio/src/assets/images/${currentColor.slice(1,)}.png`} alt="me" className="rounded-md" />
+          <img src={`/src/assets/images/${currentColor.slice(1,)}.png`} alt="me" className="rounded-md" />
         </div>
       </div>
     </>
