@@ -3,14 +3,10 @@ import { useStateContext } from "../../context/Context";
 import Snowfall from "react-snowfall";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
-import { myPics } from "../../assets/dummy";
 import Styles from "./Home.module.css";
 import CVfile from "../../assets/cv.pdf";
-
 const Home = () => {
-  const { currentColor, currentLang, t } = useStateContext();
-  console.log(currentColor.slice(1,), currentColor)
-
+  const { currentColor, currentLang, t, heroImg } = useStateContext();
   return (
     <>
       <div
@@ -78,7 +74,7 @@ const Home = () => {
             ${Styles.me} w-[40%]  absolute hidden lg:bottom-10 ltr:right-32 rtl:left-32
             `}
         >
-          <img src={`/portfolio/src/assets/images/${currentColor.slice(1,)}.png`} alt="me" className="rounded-md" />
+          <img src={heroImg} alt="me" className="rounded-md" />
         </div>
       </div>
     </>

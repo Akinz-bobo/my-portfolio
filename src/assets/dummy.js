@@ -9,10 +9,10 @@ export { default as ContactPic } from "./images/contact.png";
 // export { default as MePic } from "./images/me";
 
 export const myPics = {
-    picture1,
-    picture2,
-    picture3,
-    picture4,
-    picture5,
-    picture6
+    '#1A97F5': picture1,
+    '#03C9D7': picture2,
+    '#3F72AF': picture3,
+    '#7352FF': picture4,
+    '#F55050': picture5,
+    '#F55302': picture6
 }

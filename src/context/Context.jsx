@@ -5,7 +5,7 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { FaCss3, FaWix, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiBootstrap, SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
-
+import { myPics } from "../assets/dummy";
 import { createContext, useContext, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../i18n";
@@ -38,6 +38,7 @@ export const ContextProvider = ({ children }) => {
   };
 
   //todo Data
+
 
   const navItems = [
     {
@@ -411,6 +412,7 @@ export const ContextProvider = ({ children }) => {
         serviceData,
         portfolioTitle,
         portfolioData,
+        heroImg: myPics[currentColor]
       }}
     >
       {children}
