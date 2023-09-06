@@ -215,21 +215,21 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName1"),
           pic: "bg-dashboard",
           githubLink: "https://github.com/Akinz-bobo/dashboard-app",
-          viewOnline: "https://Mehdi0-0Keramati.github.io/AdminDashboard",
+          viewOnline: "https://akinz-bobo.github.io/dashboard-app/",
         },
         {
           title: t("app"),
           projectName: t("projectName2"),
           pic: "bg-weatherforecast",
           githubLink: "https://github.com/Akinz-bobo/weather-forecast-app",
-          viewOnline: "https://mehdi0-0keramati.github.io/weather_forecast",
+          viewOnline: "https://akinz-bobo.github.io/weather_forecast/",
         },
         {
           title: t("app"),
           projectName: t("projectName3"),
           pic: "bg-musicPlayer",
           githubLink: "https://github.com/Akinz-bobo/Music-Player-App",
-          viewOnline: "https://mehdi0-0keramati.github.io/MUSICPLAYER",
+          viewOnline: "https://akinz-bobo.github.io/Music-Player-App/",
         },
         {
           title: t("app"),
@@ -243,7 +243,7 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName5"),
           pic: "bg-cryptocurrency",
           githubLink: "https://github.com/Akinz-bobo/crypto-market-place",
-          viewOnline: "https://mehdi0-0keramati.github.io/crypto-currency",
+          viewOnline: "https://akinz-bobo.github.io/crypto-currency/",
         },
 
         {
@@ -251,14 +251,14 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName6"),
           pic: "bg-legends_landingpage",
           githubLink: "https://github.com/Akinz-bobo/legends-landing-page-clone",
-          viewOnline: "https://Mehdi0-0Keramati.github.io/legends-landingpage",
+          viewOnline: "https://akinz-bobo.github.io/legends-landingpage/",
         },
         {
           title: t("reactjs"),
           projectName: t("projectName7"),
           pic: "bg-GPT3",
           githubLink: "https://github.com/Akinz-bobo/GPT-3-App",
-          viewOnline: "https://Mehdi0-0Keramati.github.io/GPT-3",
+          viewOnline: "https://akinz-bobo.github.io/GPT-3/",
         },
 
         {
@@ -276,7 +276,7 @@ export const ContextProvider = ({ children }) => {
           githubLink:
             "https://github.com/Akinz-bobo/E-Commerce-Website",
           viewOnline:
-            "https://mehdi0-0keramati.github.io/eCommerce_tailwind_template",
+            "https://akinz-bobo.github.io/E-Commerce-Website/",
         },
 
         {
@@ -284,7 +284,7 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName18"),
           pic: "bg-quizapp",
           githubLink: "https://github.com/Akinz-bobo/my-quiz-app",
-          viewOnline: "https://Mehdi0-0Keramati.github.io/QuizApp",
+          viewOnline: "https://akinz-bobo.github.io/QuizApp/",
         },
       ],
 
@@ -294,21 +294,21 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName1"),
           pic: "bg-dashboard",
           githubLink: "https://github.com/Akinz-bobo/dashboard-app",
-          viewOnline: "https://Mehdi0-0Keramati.github.io/AdminDashboard",
+          viewOnline: "https://akinz-bobo.github.io/dashboard-app/",
         },
         {
           title: t("app"),
           projectName: t("projectName2"),
           pic: "bg-weatherforecast",
           githubLink: "https://github.com/Akinz-bobo/weather-forecast-app",
-          viewOnline: "https://mehdi0-0keramati.github.io/weather_forecast",
+          viewOnline: "https://akinz-bobo.github.io/weather_forecast/",
         },
         {
           title: t("app"),
           projectName: t("projectName3"),
           pic: "bg-musicPlayer",
           githubLink: "https://github.com/Akinz-bobo/Music-Player-App",
-          viewOnline: "https://mehdi0-0keramati.github.io/MUSICPLAYER",
+          viewOnline: "https://akinz-bobo.github.io/Music-Player-App/",
         },
         {
           title: t("app"),
@@ -322,7 +322,7 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName5"),
           pic: "bg-cryptocurrency",
           githubLink: "https://github.com/Akinz-bobo/crypto-market-place",
-          viewOnline: "https://mehdi0-0keramati.github.io/crypto-currency",
+          viewOnline: "https://akinz-bobo.github.io/crypto-currency/",
         },
       ],
 
@@ -341,14 +341,14 @@ export const ContextProvider = ({ children }) => {
               projectName: t("projectName6"),
               pic: "bg-legends_landingpage",
               githubLink: "https://github.com/Akinz-bobo/legends-landing-page-clone",
-              viewOnline: " https://Mehdi0-0Keramati.github.io/legends-landingpage",
+              viewOnline: " https://akinz-bobo.github.io/legends-landingpage/",
             },
             {
               title: t("reactjs"),
               projectName: t("projectName7"),
               pic: "bg-GPT3",
               githubLink: "https://github.com/Akinz-bobo/GPT-3-App",
-              viewOnline: "https://Mehdi0-0Keramati.github.io/GPT-3",
+              viewOnline: "https://akinz-bobo.github.io/GPT-3/",
             },
             {
               title: t("reactjs"),
@@ -367,7 +367,7 @@ export const ContextProvider = ({ children }) => {
               githubLink:
                 "https://github.com/Akinz-bobo/E-Commerce-Website",
               viewOnline:
-                "https://mehdi0-0keramati.github.io/eCommerce_tailwind_template",
+                "https://akinz-bobo.github.io/E-Commerce-Website/",
             },
           ],
         },
@@ -379,7 +379,7 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName18"),
           pic: "bg-quizapp",
           githubLink: "https://github.com/Akinz-bobo/my-quiz-app",
-          viewOnline: "https://Mehdi0-0Keramati.github.io/QuizApp",
+          viewOnline: "https://akinz-bobo.github.io/QuizApp/",
         },
       ],
     },
