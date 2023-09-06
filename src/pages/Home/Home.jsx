@@ -1,5 +1,4 @@
 import { useStateContext } from "../../context/Context";
-
 import Snowfall from "react-snowfall";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
@@ -9,7 +8,15 @@ import CVfile from "../../assets/cv.pdf";
 
 const Home = () => {
   const { currentColor, currentLang, t } = useStateContext();
-  console.log(currentColor.slice(1,), currentColor)
+  // console.log(currentColor.slice(1,), currentColor)
+  let temp;
+  myPics.find((item, index) => {
+    let id = item.split('/').pop();
+    if (currentColor.slice(1) === id.slice(0, -4)) {
+      temp = index;
+    }
+  })
+  console.log(temp)
 
   return (
     <>
@@ -78,7 +85,7 @@ const Home = () => {
             ${Styles.me} w-[40%]  absolute hidden lg:bottom-10 ltr:right-32 rtl:left-32
             `}
         >
-          <img src={`./assets/images/${currentColor.slice(1,)}.png`} alt="me" className="rounded-md" />
+          <img src={myPics[temp]} className="rounded-md" />
         </div>
       </div>
     </>
