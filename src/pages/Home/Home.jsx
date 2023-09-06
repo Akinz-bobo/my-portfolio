@@ -12,6 +12,7 @@ const Home = () => {
   let temp;
   myPics.find((item, index) => {
     let id = item.split('/').pop();
+    console.log(id.slice(0, 6))
     if (currentColor.slice(1) === id.slice(0, -4)) {
       temp = index;
     }
