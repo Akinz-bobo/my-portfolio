@@ -31,7 +31,7 @@ const Sidebar = () => {
             } transition-all fixed left-0 h-full w-96`}
           style={{ background: currentColor }}
         >
-          <ul className="flex flex-col justify-between w-full h-full px-5 py-10 direction">
+          <ul className="flex flex-col justify-between w-[90%] mx-auto h-full px-5 py-10 direction">
             <div className="flex items-center justify-between w-full mb-10 text-2xl font-semibold text-gray-200 dark:text-gray-800">
               <h1 className="font-normal font-summer">Akinola</h1>
               <button onClick={() => setActiveMenu(false)}>
