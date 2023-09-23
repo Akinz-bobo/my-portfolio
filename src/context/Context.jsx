@@ -208,7 +208,7 @@ export const ContextProvider = ({ children }) => {
           projectName: t("projectName0"),
           pic: "bg-DigitalRepair",
           githubLink: "https://github.com/Akinz-bobo/repair-digital-factory",
-          viewOnline: "https://mehdi0-0keramati.github.io/RepairDigitalFactory/",
+          viewOnline: "https://repairsystemmanagement.vercel.app/",
         },
         {
           title: t("app"),
@@ -260,15 +260,6 @@ export const ContextProvider = ({ children }) => {
           githubLink: "https://github.com/Akinz-bobo/GPT-3-App",
           viewOnline: "https://akinz-bobo.github.io/GPT-3/",
         },
-
-        {
-          title: t("reactjs"),
-          projectName: t("projectName10"),
-          pic: "bg-littleProject",
-          githubLink: "https://github.com/Akinz-bobo/little-project-react",
-          viewOnline: "https://littleproject-reactjs.netlify.app",
-        },
-
         {
           title: t("vanillajs"),
           projectName: t("projectName13"),
@@ -334,7 +325,7 @@ export const ContextProvider = ({ children }) => {
               projectName: t("projectName0"),
               pic: "bg-DigitalRepair",
               githubLink: "https://github.com/Akinz-bobo/repair-digital-factory",
-              viewOnline: "https://mehdi0-0keramati.github.io/RepairDigitalFactory/",
+              viewOnline: "https://repairsystemmanagement.vercel.app/",
             },
             {
               title: t("reactjs"),
